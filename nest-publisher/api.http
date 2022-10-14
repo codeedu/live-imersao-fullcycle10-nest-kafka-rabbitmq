@@ -1,0 +1,16 @@
+POST http://localhost:3001/rabbit-publish
+Content-Type: application/json
+
+{
+    "client": "Luiz Carlos",
+    "amount": 100000
+}
+
+###
+POST http://localhost:3001/kafka-publish
+Content-Type: application/json
+
+{
+    "client": "Luiz Carlos111111111111111111",
+    "amount": 100000
+}
